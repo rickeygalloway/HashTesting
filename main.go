@@ -66,7 +66,6 @@ func Hash(count int, x int) {
 			mod := intFromHash.Mod(intFromHash, idList)
 
 			hashedProductID = uint32(mod.Int64() + 50000000)
-
 		}
 
 		if hashedProductID > 0 {
